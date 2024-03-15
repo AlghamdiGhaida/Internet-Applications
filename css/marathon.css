@@ -1,0 +1,197 @@
+body {
+    background-color: #A3B5C0;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;/*Space between them*/
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #213A5C;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #213A5C;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%; /*The hight of the line*/
+}
+
+.tableForReading {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    flex: 1 1 40rem;
+    padding: 4rem 4.5rem;
+    margin: 2rem 22.5rem 2rem 1rem;
+}
+
+.main h2 {
+    color:#fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-weight: 700;
+    transition: 1.7s;
+    text-align: center;
+}
+
+.main p {
+    color: #fff;
+    font-size: 20px;
+    direction: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: lighter;}
+
+.product h2 {
+    color: #fff;
+    font-size: 25px;
+    direction: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+
+}
+
+.product .bookForMonth {
+    margin-top: 30px;
+    display: flex;
+    padding: 10px 10px 10px 230px;
+}
+
+.product .bookForMonth .box {
+    box-shadow: 1rem 1rem #213A5C;
+    background-color: #fff;
+    min-height: 12em;
+    width: 18em;
+    height: 34em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    float: right;
+    padding: 3px;
+}
+
+.product .bookForMonth .box:hover {
+   transform: scale(1.1);
+}
+
+.product .bookForMonth .box .image img {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.content {
+    padding: 2px;
+    margin: 3px;
+    align-items: center;
+    text-align: center;
+    color: #213A5C;
+    font-size: 12px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+.hi1 .hi {
+font-weight: border;
+}
+
+ .brief .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    height: 30rem;
+    align-items: center;
+    width: 92%;
+ }
+
+  .brief .row form {
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    margin: 2rem 0rem 2rem 8rem;
+    box-shadow: 1rem 1rem #213A5C;
+    border: 0.1rem solid #A3B5C0;
+    background: white;
+    border-radius: 0.5rem;
+    direction: rtl;
+  }
+
+  .brief .row form .box {
+    padding: 1rem;
+    font-size: 1rem;
+    color: darkred;
+    text-transform: none;
+    border: 0.1rem solid #A3B5C0;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    width: 100%;
+    direction: rtl;
+  }
+
+  .brief .row form .box:focus {
+    border-color: var(blue);
+  }
+
+  .brief .row form textarea {
+    height: 15rem;
+    resize: none;
+  }
+
+.brief .row form .btn {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #A3B5C0;
+  background: #213A5C;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
